@@ -1,0 +1,26 @@
+.steps {
+    background: #212326;
+    padding: 5rem 0;
+}
+
+.stepDetails {
+    padding: 0.5rem;
+}
+
+.stepDetails h4{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.stepDetails p {
+    color: #a4a7a9;
+    font-weight: 400;
+    font-size: 0.98rem;
+}
+
+.stepIcon {
+    color: #58ADB7;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}

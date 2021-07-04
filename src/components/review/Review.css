@@ -1,0 +1,122 @@
+.review {
+    background: url('../../Images/r-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 100%;
+    padding: 3rem 0 6rem;
+}
+
+.stars {
+    padding: 1.5rem 0;
+}
+
+.stars span {
+    color: #EBD072;
+    margin: 0 0.2rem;
+    font-size: 1rem;
+}
+
+.review h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 100;
+} 
+
+.review p {
+    color: #a4a7a9;
+    padding: 2rem 0;
+}
+
+.userInfo {
+    padding: 0.5rem 1rem;
+}
+
+.userInfo img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.userStars span {
+    color: #EBD072;
+    margin: 0 0.277rem;
+    font-size: 0.8rem;
+}
+
+.googleReview,
+.linkedInReview {
+    padding: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.review h4 {
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.googleReview {
+    background: #333638;
+    position: relative;
+}
+
+.googleReview::after {
+    top: 100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-color: rgba(0,0,0,0) #333638 rgba(0,0,0,0) rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 0 1.4rem 1.4rem 0;
+    content: " ";
+}
+
+.review1 {
+    margin-right: 5rem;
+}
+
+.linkedInReview {
+    background: #212326;
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+.linkedInReview::after {
+    top: 100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-color: rgba(0,0,0,0) #212326 rgba(0,0,0,0) rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 0 1.4rem 1.4rem 0;
+    content: " ";
+}
+
+.review2 {
+    margin-left: 5rem;
+}
+
+.darkColor {
+    color: #a4a7a9;
+}
+
+@media (max-width: 768px){
+    .review {
+        background-size: cover;
+    }
+    .review h1 {
+        font-size: 2.3rem;
+    }
+    .review p {
+        padding: 1rem 0;
+    }
+    .googleReview,
+    .linkedInReview {
+    padding: 1rem;
+    margin-bottom: 0.3rem;
+    }
+}

@@ -1,0 +1,28 @@
+.slideImg {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slideImg img {
+    width: 100%;
+    transition: 0.9s;
+}
+
+.slideImg:hover img {
+    transform: scale(1.06);
+}
+
+.slideImg h4 {
+    position: absolute;
+    bottom: 4rem;
+    right: 4rem;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.swiper-slide,
+.swiper-slide-next {
+    margin: 0!important;
+}

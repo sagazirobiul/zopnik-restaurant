@@ -1,0 +1,113 @@
+.featurePd {
+    padding: 3rem 0;
+}
+
+.featurePd h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #fff;
+    padding: 2.5rem 0;
+}
+
+.productCard {
+    background: #212326;
+}
+
+.productCard h5 {
+    color: #fff;
+    margin: 0.4rem 0 0.2rem;
+    font-weight: 200;
+}
+
+.productCard img{
+    width: 100%;
+}
+
+.productCardDes {
+    padding: 1rem;
+    color: #a4a7a9;
+    margin-bottom: 3rem;
+}
+
+.animateBtn {
+    color: #fff;
+    border: 2px solid #58adb7;
+    background: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.animateBtn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: #58adb7;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.animateBtn:hover::before{
+    height: 100%;
+}
+
+.viewBtn {
+    color: #fff;
+    border: none;
+    background: #58adb7;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.viewBtn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: #3a6f75d0;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.viewBtn:hover::before{
+    height: 100%;
+}
+
+.productPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .productPrice {
+        display: block;
+    }
+    .productPrice > span {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .animateBtn {
+        padding: 0.4rem 0.8rem;
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+}

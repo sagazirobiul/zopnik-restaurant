@@ -1,0 +1,93 @@
+.footer {
+    background: #282B2E;
+    padding: 3rem 0;
+}
+
+.footer .fLogo {
+    height: 3.7rem;
+}
+
+.footer h5 {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding: 0.8rem 0;
+}
+
+.inputGroup {
+    padding: 0.8rem 0;
+}
+
+.inputGroup input {
+    width: 70%;
+}
+.inputGroup input:focus {
+    border: none;
+    outline: none;
+}
+.inputGroup button {
+    width: 30%;
+}
+.inputGroup input,
+.inputGroup button {
+    border: none;
+    padding: 0.8rem 1rem;
+}
+
+
+.socialIcons {
+    margin: 0;
+    padding: 0;
+}
+.socialIcons li {
+    list-style: none;
+    float: left;
+}
+.socialIcons li a {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+    background: #3e4043;
+    margin-right: 5px;
+    color:#fff;
+    transition: 0.4s;
+}
+
+.facebook:hover{
+    background-color: #4381F3;
+}
+.google:hover{
+    background-color: #D04F3E;
+}
+.twitter:hover{
+    background-color: #33b4f0;
+}
+.youtube:hover{
+    background-color: #f73a24;
+}
+.instagram:hover{
+    background-color: #E51CA5;
+}
+
+.footerBottom {
+    border-top: 1px solid #3e4043;
+}
+
+.footerBottom span {
+    color: #fff;
+}
+
+.footerBottom img {
+    height: 13rem;
+}
+
+@media (max-width: 768px) {
+    .inputGroup input,
+    .inputGroup button {
+        border: none;
+        padding: 0.5rem 0.8rem;
+    }
+}

@@ -1,0 +1,34 @@
+#navBar {
+    z-index: 88;
+    background: #282B2E;
+    font-family: sans-serif;
+}
+
+#navBar img {
+    height: 2.7rem;
+}
+
+#navBar a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: 0.4s;
+}
+
+#navBar a:hover {
+    color: #58ADB7;
+}
+
+
+
+@media (max-width: 768px) {
+    #navBar .nav-item{
+        text-align: center!important;
+        margin: 0.5rem 0;
+    }
+    .navbar-toggler {
+        border-color: #333638!important;
+    }
+}
