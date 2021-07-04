@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/sagazirobiul/zopnik-restaurant/static/css/main.0540441a.chunk.css",
+    "main.js": "/sagazirobiul/zopnik-restaurant/static/js/main.a4a6acb1.chunk.js",
+    "main.js.map": "/sagazirobiul/zopnik-restaurant/static/js/main.a4a6acb1.chunk.js.map",
+    "runtime-main.js": "/sagazirobiul/zopnik-restaurant/static/js/runtime-main.385ca4f3.js",
+    "runtime-main.js.map": "/sagazirobiul/zopnik-restaurant/static/js/runtime-main.385ca4f3.js.map",
+    "static/css/2.dcf66e0a.chunk.css": "/sagazirobiul/zopnik-restaurant/static/css/2.dcf66e0a.chunk.css",
+    "static/js/2.2717bce5.chunk.js": "/sagazirobiul/zopnik-restaurant/static/js/2.2717bce5.chunk.js",
+    "static/js/2.2717bce5.chunk.js.map": "/sagazirobiul/zopnik-restaurant/static/js/2.2717bce5.chunk.js.map",
+    "static/js/3.4fac7a3d.chunk.js": "/sagazirobiul/zopnik-restaurant/static/js/3.4fac7a3d.chunk.js",
+    "static/js/3.4fac7a3d.chunk.js.map": "/sagazirobiul/zopnik-restaurant/static/js/3.4fac7a3d.chunk.js.map",
+    "index.html": "/sagazirobiul/zopnik-restaurant/index.html",
+    "static/css/2.dcf66e0a.chunk.css.map": "/sagazirobiul/zopnik-restaurant/static/css/2.dcf66e0a.chunk.css.map",
+    "static/css/main.0540441a.chunk.css.map": "/sagazirobiul/zopnik-restaurant/static/css/main.0540441a.chunk.css.map",
+    "static/js/2.2717bce5.chunk.js.LICENSE.txt": "/sagazirobiul/zopnik-restaurant/static/js/2.2717bce5.chunk.js.LICENSE.txt",
+    "static/media/burger.c7deb38e.jpg": "/sagazirobiul/zopnik-restaurant/static/media/burger.c7deb38e.jpg",
+    "static/media/desserts.4f4f5a5e.jpg": "/sagazirobiul/zopnik-restaurant/static/media/desserts.4f4f5a5e.jpg",
+    "static/media/drinks.bca78def.jpg": "/sagazirobiul/zopnik-restaurant/static/media/drinks.bca78def.jpg",
+    "static/media/Header.css": "/sagazirobiul/zopnik-restaurant/static/media/header-bg.52fdde60.jpg",
+    "static/media/logo.8b76e4e9.png": "/sagazirobiul/zopnik-restaurant/static/media/logo.8b76e4e9.png",
+    "static/media/logo2.ba5bd998.png": "/sagazirobiul/zopnik-restaurant/static/media/logo2.ba5bd998.png",
+    "static/media/p1.ae6bddd7.jpg": "/sagazirobiul/zopnik-restaurant/static/media/p1.ae6bddd7.jpg",
+    "static/media/p2.8d76dfb1.jpg": "/sagazirobiul/zopnik-restaurant/static/media/p2.8d76dfb1.jpg",
+    "static/media/p3.711b6976.jpg": "/sagazirobiul/zopnik-restaurant/static/media/p3.711b6976.jpg",
+    "static/media/pasta.47ce4467.jpg": "/sagazirobiul/zopnik-restaurant/static/media/pasta.47ce4467.jpg",
+    "static/media/pizza.3a1aa17a.jpg": "/sagazirobiul/zopnik-restaurant/static/media/pizza.3a1aa17a.jpg",
+    "static/media/Review.css": "/sagazirobiul/zopnik-restaurant/static/media/r-bg.6b75c5e2.png",
+    "static/media/sushi.47fe972d.jpg": "/sagazirobiul/zopnik-restaurant/static/media/sushi.47fe972d.jpg",
+    "static/media/Promo.css": "/sagazirobiul/zopnik-restaurant/static/media/v-bg.ac79bf0d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.385ca4f3.js",
+    "static/css/2.dcf66e0a.chunk.css",
+    "static/js/2.2717bce5.chunk.js",
+    "static/css/main.0540441a.chunk.css",
+    "static/js/main.a4a6acb1.chunk.js"
+  ]
+}
